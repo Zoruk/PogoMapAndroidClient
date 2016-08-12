@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PogoMapClient</string>
+    <string name="title_activity_pogo_map">Pokémon Go Map</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pref_cat_general">General</string>
+    <string name="pref_refresh_delay">Refresh delay in sec</string>
+    <string name="pref_refresh_delay_key">refresh_delay</string>
+    <string name="pref_file_key">ch.haikou.pogomapclient.prefs</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_pokemons_to_show_key">pokemons_to_show</string>
+    <string name="pokemon_to_show">Pokémon to show (filter)</string>
+    <string name="pref_cat_service">Service</string>
+    <string name="pref_pokemons_to_notify_key">pokemon_to_notify</string>
+    <string name="pref_enable_background_service">Enable background notify service</string>
+    <string name="pref_enable_Background_service_key">notify_service_enabled</string>
+    <string name="pokemon_to_notify">Pokémon to notify</string>
+    <string name="pref_service_distance">Distance maximale</string>
+    <string name="pref_service_distance_key">max_service_dist</string>
+    <string name="pref_username">Username</string>
+    <string name="pref_username_key">username</string>
+    <string name="pref_password">Password</string>
+    <string name="pref_password_key">password</string>
+    <string name="pref_use_key">Use SSL</string>
+    <string name="pref_use_ssl_key">use_ssé</string>
+    <string name="pref_host">Serveur</string>
+    <string name="pref_host_key">server_url</string>
+    <string name="pref_service_refresh_delay">Refresh delay</string>
+    <string name="pref_service_refresh_delay_key">service_refresh_delay</string>
+    <string name="no_server_set">No server set please define it in settings</string>
+    <string name="pref_dislpay_pokestop">Pokestops</string>
+    <string name="pref_dislpay_pokestop_key">pokestops</string>
+    <string name="info_window_distanmce">Distance: %dm</string>
+</resources>

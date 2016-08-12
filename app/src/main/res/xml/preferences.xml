@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_cat_general">
+
+        <ListPreference
+            android:defaultValue="@integer/pref_default_refresh_delay"
+            android:entryValues="@array/pref_possible_refresh_delay"
+            android:entries="@array/pref_possible_refresh_delay"
+            android:title="@string/pref_refresh_delay"
+            android:key="@string/pref_refresh_delay_key"
+            />
+
+        <ListPreference
+            android:title="@string/pref_dislpay_pokestop"
+            android:key="@string/pref_dislpay_pokestop_key"
+            android:entries="@array/pref_display_pokestops"
+            android:defaultValue="@string/pref_display_pokestop_none"
+            android:entryValues="@array/pref_display_pokestops"
+
+            />
+
+        <ch.haikou.pogomapclient.datas.PokemonToShowPreference
+            android:dialogTitle="@string/pokemon_to_show"
+            android:title="@string/pokemon_to_show"
+            android:entries="@array/pokemons"
+            android:defaultValue="@array/pref_pokemons_to_show_default"
+            android:key="@string/pref_pokemons_to_show_key" />
+
+        <EditTextPreference
+            android:title="@string/pref_host"
+            android:key="@string/pref_host_key"
+            android:inputType="text"/>
+        <CheckBoxPreference
+            android:title="@string/pref_use_key"
+            android:key="@string/pref_use_ssl_key"
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:title="@string/pref_username"
+            android:key="@string/pref_username_key"
+            android:inputType="textPersonName"/>
+        <EditTextPreference
+            android:title="@string/pref_password"
+            android:key="@string/pref_password_key"
+            android:inputType="textPassword"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_service">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/pref_enable_background_service"
+            android:key="@string/pref_enable_Background_service_key"/>
+
+        <EditTextPreference
+            android:title="@string/pref_service_distance"
+            android:key="@string/pref_service_distance_key"
+
+            android:numeric="integer"
+            android:maxLength="4"
+            android:defaultValue="@integer/pref_default_service_distance" />
+
+        <ListPreference
+            android:defaultValue="@integer/pref_default_refresh_delay"
+            android:entryValues="@array/pref_possible_refresh_delay"
+            android:entries="@array/pref_possible_refresh_delay"
+            android:title="@string/pref_service_refresh_delay"
+            android:key="@string/pref_service_refresh_delay_key"
+            />
+
+        <ch.haikou.pogomapclient.datas.PokemonToNotifyPreference
+            android:dialogTitle="@string/pokemon_to_notify"
+            android:title="@string/pokemon_to_notify"
+            android:entries="@array/pokemons"
+            android:defaultValue="@array/pref_pokemons_to_show_default"
+            android:key="@string/pref_pokemons_to_notify_key"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

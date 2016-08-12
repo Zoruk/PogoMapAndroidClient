@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_display_pokestop_none">None</string>
+    <string name="pref_display_pokestop_lured_only">Lured only</string>
+    <string name="pref_display_pokestop_all">All</string>
+    <string-array name="pref_display_pokestops">
+        <item>@string/pref_display_pokestop_none</item>
+        <item>@string/pref_display_pokestop_lured_only</item>
+        <item>@string/pref_display_pokestop_all</item>
+    </string-array>
+    <string-array name="dialog_pokemon_items">
+        <item>Display</item>
+        <item>Notify</item>
+    </string-array>
+</resources>
